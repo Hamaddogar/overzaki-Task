@@ -1,0 +1,8 @@
+<svg id="video" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Interface-Solid">
+    <g id="interface-solid-multimedia-play-button">
+      <path id="Path_35217" data-name="Path 35217" d="M15.692,11.595l-1.943-1.356a1,1,0,0,0-1.572.82v7.883a1,1,0,0,0,1.572.82l1.943-1.356,3.7-2.585a1,1,0,0,0,0-1.64Z" fill="none"/>
+      <path id="Path_35218" data-name="Path 35218" d="M15,0A15,15,0,1,0,30,15,15,15,0,0,0,15,0Zm4.4,15.82-3.7,2.585-1.943,1.356a1,1,0,0,1-1.572-.82V11.059a1,1,0,0,1,1.572-.82l1.943,1.356,3.7,2.585a1,1,0,0,1,0,1.64Z" fill="#0f1349"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,461 @@
+.btn1 {
+    width: 100px;
+    height: 40px;
+    /* UI Properties */
+    border: 2px solid #E0E1E8 !important;
+    border-radius: 30px !important;
+    opacity: 1;
+    text-transform: capitalize !important;
+    font-weight: 600 !important;
+    color: #8688A3 !important;
+    /* direction: rtl; */
+}
+
+.btn2 {
+    width: 100px;
+    height: 40px;
+    /* UI Properties */
+    background: #1BFCB6 0% 0% no-repeat padding-box !important;
+    border-radius: 30px !important;
+    opacity: 1;
+    text-transform: capitalize !important;
+    color: #0F1349 !important;
+    font-weight: 600 !important;
+
+}
+
+.btn2:hover {
+    background: #1BFCB6 0% 0% no-repeat padding-box;
+}
+
+.btn3 {
+    width: 100px;
+    height: 40px;
+    background: var(--dark) 0% 0% no-repeat padding-box;
+    background: #0F1349 0% 0% no-repeat padding-box !important;
+    border-radius: 30px !important;
+    opacity: 1;
+    text-transform: capitalize !important;
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+
+}
+
+.btn3:hover {
+    background: var(--dark) 0% 0% no-repeat padding-box;
+    background: #0F1349 0% 0% no-repeat padding-box;
+}
+
+.titleIntro {
+    background-repeat: no-repeat;
+    background-position: 8% 83%;
+    color: var(--dark);
+    text-align: left !important;
+    font: normal normal 900 48px/60px Roboto !important;
+    letter-spacing: 0px !important;
+    color: #0F1349 !important;
+    opacity: 1;
+    padding: 3rem 0rem;
+}
+
+.text {
+    color: var(--gray);
+    text-align: left;
+    font: normal normal medium 20px/32px;
+    letter-spacing: 0px;
+    color: #8688A3;
+    max-width: 400px;
+}
+
+.introbtn {
+    width: 170px;
+    height: 50px;
+    /* UI Properties */
+    background: var(--green) 0% 0% no-repeat padding-box;
+    background: #1BFCB6 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 6px 20px #1BFCB633 !important;
+    border-radius: 30px !important;
+    /* UI Properties */
+    text-align: center !important;
+    font: normal normal 900 20px/33px !important;
+    letter-spacing: 0px !important;
+    color: #282B5C !important;
+    opacity: 1;
+    text-transform: capitalize !important;
+    font-weight: 600 !important;
+}
+
+.introbtn:hover {
+    background-color: #1BFCB6;
+}
+
+.msg {
+    float: right;
+    clear: both;
+    display: inline-block !important;
+    background: #B9FEE8 0% 0% no-repeat padding-box !important;
+    border-radius: 25px 0px 25px 25px !important;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: right;
+    font-weight: 600;
+    padding: 12px 20px;
+    letter-spacing: 0px;
+    color: #0F1349;
+    margin-top: 3px;
+}
+
+.imgCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    /* UI Properties */
+    background: var(--green) 0% 0% no-repeat padding-box;
+    background: #1BFCB6 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 20px #1BFCB633;
+    border-radius: 30px;
+}
+
+
+/* services section */
+.servicesCont {
+    background: #E8FFF8;
+    border-radius: 40px;
+    padding: 7%;
+    margin-top: 100px;
+}
+
+.titleservices {
+    font: normal normal 900 48px/60px Roboto !important;
+    letter-spacing: 0px !important;
+    color: #0F1349 !important;
+}
+
+.cardServices {
+    max-width: 220px;
+    height: 280px;
+    margin: auto;
+    /* UI Properties */
+    background: var(--green) 0% 0% no-repeat padding-box;
+    background: rgb(27, 252, 182, .14);
+    border-radius: 20px;
+    /* opacity: 0.14; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #0F1349;
+}
+
+.cardServices:hover {
+    background: rgb(27, 252, 182, 1);
+    cursor: pointer;
+
+}
+
+.servicesbtn {
+    width: 230px;
+    height: 50px;
+    /* UI Properties */
+    background: var(--green) 0% 0% no-repeat padding-box;
+    background: #1BFCB6 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 6px 20px #1BFCB633 !important;
+    border-radius: 30px !important;
+    /* UI Properties */
+    text-align: center !important;
+    font: normal normal 900 20px/33px !important;
+    letter-spacing: 0px !important;
+    color: #282B5C !important;
+    opacity: 1;
+    text-transform: capitalize !important;
+    font-weight: 600 !important;
+}
+
+.videoBtn {
+    position: relative !important;
+    left: -55%;
+}
+
+.responsive {
+    width: 100% !important;
+    max-width: auto !important;
+}
+
+/* titleWork */
+.titleWork {
+    background-repeat: no-repeat;
+    background-position: 90% 77%;
+    /* background-size: 400px; */
+    color: var(--dark);
+    text-align: left !important;
+    font: normal normal 900 48px/60px Roboto !important;
+    letter-spacing: 0px !important;
+    color: #0F1349 !important;
+    opacity: 1;
+    padding: 3rem 0rem;
+}
+
+.titleWork2 {
+    background-repeat: no-repeat;
+    background-position: 8% 83%;
+    /* background-size: 400px; */
+    color: var(--dark);
+    text-align: left !important;
+    font: normal normal 900 43px/60px Roboto !important;
+    letter-spacing: 0px !important;
+    color: #0F1349 !important;
+    opacity: 1;
+    padding: 3rem 0rem;
+}
+
+
+
+/* FAQ */
+.titleFaq {
+    background-repeat: no-repeat;
+    background-position: 530px 50%;
+    /* background-size: 400px; */
+    color: var(--dark);
+    text-align: left !important;
+    font: normal normal 900 48px/60px Roboto !important;
+    letter-spacing: 0px !important;
+    color: #0F1349 !important;
+    opacity: 1;
+    padding: 3rem 0rem;
+}
+
+.faqHeading {
+    font-size: 22px !important;
+    letter-spacing: 0px !important;
+    color: #0F1349 !important;
+    padding-left: 13px !important;
+    font-weight: 600 !important;
+}
+
+.faqDetail {
+    border-left: 1px solid #DFDFE7;
+    padding-left: 14px;
+    margin-left: 9px !important;
+    color: #8688A3 !important;
+}
+
+.loadMore {
+    text-transform: capitalize !important;
+    color: #8688A3 !important;
+    font-weight: 600 !important;
+}
+
+/* GrtApp */
+
+.appbtn {
+    width: 200px;
+    height: 60px;
+    /* UI Properties */
+    background: var(--dark) 0% 0% no-repeat padding-box;
+    background: #0F1349 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 6px 20px #1BFCB633 !important;
+    border-radius: 30px !important;
+    text-transform: capitalize !important;
+    color: #FFFFFF !important;
+}
+
+.getAppCont {
+    background: var(--green) 0% 0% no-repeat padding-box;
+    background: #1BFCB6 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    /* width: 1088px; */
+    min-height: 360px;
+    margin: 120px 0px 0px 0px;
+}
+
+.getAppImg {
+    position: absolute;
+    width: 100%;
+    max-width: 479px;
+    top: -126px;
+}
+
+.getAppImgSM {
+    width: 100%;
+    max-width: 479px;
+}
+
+/* FollowUs */
+
+.flinks {
+    cursor: pointer;
+
+}
+
+.footeText {
+    letter-spacing: 0px !important;
+    color: #8688A3 !important;
+    font-size: 20px !important;
+}
+
+.footerTitle {
+    font-size: 40px !important;
+    font-weight: 900 !important;
+    letter-spacing: 0px !important;
+    color: #0F1349 !important;
+}
+
+.chatIcon {
+    position: fixed;
+    bottom: 20px;
+    right: 24px;
+}
+
+/* side bar */
+.sidebarTitle {
+    font-size: 25px !important;
+    font-weight: 900 !important;
+    letter-spacing: 0px !important;
+    color: #0F1349 !important;
+}
+
+.sideBarText {
+    letter-spacing: 0px !important;
+    color: #8688A3 !important;
+    font-size: 15px !important;
+}
+
+.sideNave2Title {
+    font-size: 22px !important;
+    font-weight: 900 !important;
+    letter-spacing: 0px !important;
+    color: #0F1349 !important;
+}
+
+.sideNavlinks {
+    width: 27px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .titleIntro,
+    .titleservices,
+    .footerTitle {
+        background-position: 8% 78%;
+        background-size: 73%;
+        font: normal normal 900 28px/60px Roboto !important;
+    }
+
+    .titleWork {
+        background-position: 412px 52px;
+        background-size: 200px;
+        font: normal normal 900 28px/60px Roboto !important;
+    }
+
+    .titleFaq {
+        background-position: 310px 38px;
+        background-size: 200px;
+        font: normal normal 900 28px/60px Roboto !important;
+    }
+
+    .getAppImgSM {
+        position: relative;
+        bottom: -56px;
+    }
+
+}
+
+@media screen and (max-width: 659px) {
+    .titleWork {
+        background-position: 0px 100px;
+        background-size: 200px;
+        font: normal normal 900 28px/60px Roboto !important;
+    }
+
+    .getAppImgSM {
+        position: relative;
+        bottom: -36px;
+    }
+
+    .titleWork2 {
+        background-position: 0px 129px;
+        background-size: 200px;
+        font: normal normal 900 28px/60px Roboto !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .servicesbtn {
+        margin: auto;
+        width: 100%;
+    }
+
+    .flinks {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .imgCont {
+        width: 50px;
+        height: 50px;
+    }
+
+    .imgCont img {
+        width: 20px;
+    }
+
+    .flinks {
+        width: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 460px) {
+
+    .titleIntro,
+    .titleservices,
+    .footerTitle {
+        background-position: 8% 71%;
+        background-size: 65%;
+        font: normal normal 900 28px/60px Roboto !important;
+    }
+
+    .titleWork {
+        background-position: 30% 98px;
+        background-size: 200px;
+        font: normal normal 900 28px/60px Roboto !important;
+    }
+
+    .titleWork2 {
+        background-position: 90% 129px;
+        background-size: 200px;
+        font: normal normal 900 28px/60px Roboto !important;
+    }
+
+    .titleFaq {
+        background-position: 10px 90px;
+        background-size: 200px;
+        font: normal normal 900 28px/60px Roboto !important;
+    }
+
+
+}
+
+
+.scroller::-webkit-scrollbar {
+    width: 8px !important;
+    background-color: transparent !important;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border-radius: 8px !important;
+}
+
+.scroller::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
